@@ -153,6 +153,4 @@ Environment variables only (`.env.example`); no secrets. No authentication: keep
 ## Tests
 
 `pytest -v`: 134 tests (parsing, nulls vs zeros, Arabic/English, pagination, duplicates, retries, 429/Retry-After, 5xx, malformed/empty/partial, DB upsert and migration, daily bars, freshness, every endpoint, overlap prevention, recovery, passive collector with a fake page, recorded real response). 3 integration tests are skipped unless `EGX_RUN_INTEGRATION=1` and are the only ones that touch the real source.
-
- 
- 
+#
