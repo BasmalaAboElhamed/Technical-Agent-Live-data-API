@@ -1,0 +1,43 @@
+services:
+  egx-api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: egx_live_api:latest
+    container_name: egx_live_api
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:8000:8000" # bind to loopback only; put nginx/Caddy in front for public access
+    environment:
+      - EGX_SOURCE_BASE_URL=https://beta.egx.com.eg
+      - EGX_SOURCE_PATH=/api/bff/egx/market-watch
+      - EGX_PAGE_SIZE=50
+      - EGX_FETCH_MODE=passive
+      - EGX_BROWSER_HEADLESS=true
+      - EGX_POLLING_ENABLED=true
+      - EGX_POLL_INTERVAL_OPEN=120
+      - EGX_POLL_INTERVAL_CLOSED=900
+      - EGX_DATABASE_PATH=/app/data/egx.sqlite3
+      - EGX_LOG_LEVEL=INFO
+      - EGX_FRESH_MAX_AGE_OPEN=1200
+      # Uncomment and set your private key(s) (comma-separated for multiple):
+      # - EGX_API_KEYS=your-secret-key-here
+      # Optional: set CORS origins if accessed from a browser frontend:
+      # - EGX_CORS_ORIGINS=https://yourdomain.com
+    volumes:
+      - egx-data:/app/data # persistent SQLite DB survives container restarts
+    # Limit container resource usage to prevent runaway Chromium memory
+    deploy:
+      resources:
+        limits:
+          memory: 1500m # Chromium is memory-hungry; tune per your host
+    # Security hardening
+    security_opt:
+      - no-new-privileges:true
+    tmpfs:
+      - /tmp:size=256m,mode=1777 # Chromium writes to /tmp
+
+volumes:
+  egx-data:
+    name: egx_market_data
+    # Remove the 'external: true' line below if you want docker compose to manage the volume lifecycle

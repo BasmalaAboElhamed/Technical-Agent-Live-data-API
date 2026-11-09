@@ -1,0 +1,16 @@
+.venv
+__pycache__
+*.pyc
+*.pyo
+.pytest_cache
+*.sqlite3
+*.sqlite3-wal
+*.sqlite3-shm
+.git
+.gitignore
+.env
+tests/
+scripts/page_inspect.png
+scripts/ui_report.json
+data/
+*.log

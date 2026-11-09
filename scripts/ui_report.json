@@ -1,0 +1,1071 @@
+{
+ "selects": [],
+ "buttons": [
+  {
+   "tag": "button",
+   "id": null,
+   "cls": "relative flex h-9 min-w-[72px] items-center justify-center gap-2 rounded-lg bg-t",
+   "role": null,
+   "aria": "Switch to Arabic",
+   "text": "عربي",
+   "disabled": false
+  },
+  {
+   "tag": "button",
+   "id": null,
+   "cls": "relative w-9 h-9 flex items-center justify-center rounded-full   bg-black/5 hove",
+   "role": null,
+   "aria": "Toggle Theme",
+   "text": "",
+   "disabled": false
+  },
+  {
+   "tag": "button",
+   "id": null,
+   "cls": "group relative flex h-full w-full items-center justify-center rounded-2xl",
+   "role": null,
+   "aria": "Expand quick controls",
+   "text": "tune",
+   "disabled": false
+  },
+  {
+   "tag": "button",
+   "id": null,
+   "cls": "relative inline-flex h-9 w-9 items-center justify-center rounded-full transition",
+   "role": null,
+   "aria": "Open global search",
+   "text": "search",
+   "disabled": false
+  },
+  {
+   "tag": "button",
+   "id": null,
+   "cls": "relative z-[11260] xl:hidden flex h-10 w-10 shrink-0 items-center justify-center",
+   "role": null,
+   "aria": "Open menu",
+   "text": "menu",
+   "disabled": false
+  },
+  {
+   "tag": "button",
+   "id": null,
+   "cls": "inline-flex items-center gap-2 rounded-xl border border-primary/25 bg-white/80 p",
+   "role": null,
+   "aria": null,
+   "text": "Refresh",
+   "disabled": false
+  },
+  {
+   "tag": "button",
+   "id": null,
+   "cls": "h-14 w-full rounded-xl border border-gray-200 bg-white/80 px-3 text-start transi",
+   "role": null,
+   "aria": null,
+   "text": "SORT BY Value (L.E)",
+   "disabled": false
+  },
+  {
+   "tag": "button",
+   "id": null,
+   "cls": "h-14 w-full rounded-xl border border-gray-200 bg-white/80 px-3 text-start transi",
+   "role": null,
+   "aria": null,
+   "text": "DIRECTION Descending",
+   "disabled": false
+  },
+  {
+   "tag": "button",
+   "id": null,
+   "cls": "h-14 w-full rounded-xl border border-gray-200 bg-white/80 px-3 text-start transi",
+   "role": null,
+   "aria": null,
+   "text": "VIEW Table",
+   "disabled": false
+  },
+  {
+   "tag": "button",
+   "id": null,
+   "cls": "h-14 w-full rounded-xl border border-gray-200 bg-white/80 px-3 text-start transi",
+   "role": null,
+   "aria": null,
+   "text": "ROWS PER PAGE 25",
+   "disabled": false
+  },
+  {
+   "tag": "button",
+   "id": null,
+   "cls": "inline-flex rounded-lg border border-primary/20 bg-primary/10 p-1.5 text-primary",
+   "role": null,
+   "aria": "Open price and volume chart",
+   "text": "",
+   "disabled": false
+  },
+  {
+   "tag": "button",
+   "id": null,
+   "cls": "inline-flex items-center gap-1.5 rounded-xl border border-primary/20 bg-primary/",
+   "role": null,
+   "aria": "Open market watch details for Alexandria New Medical Center",
+   "text": "View Details",
+   "disabled": false
+  },
+  {
+   "tag": "button",
+   "id": null,
+   "cls": "inline-flex rounded-lg border border-primary/20 bg-primary/10 p-1.5 text-primary",
+   "role": null,
+   "aria": "Open price and volume chart",
+   "text": "",
+   "disabled": false
+  },
+  {
+   "tag": "button",
+   "id": null,
+   "cls": "inline-flex items-center gap-1.5 rounded-xl border border-primary/20 bg-primary/",
+   "role": null,
+   "aria": "Open market watch details for Glaxo Smith Kline",
+   "text": "View Details",
+   "disabled": false
+  },
+  {
+   "tag": "button",
+   "id": null,
+   "cls": "inline-flex rounded-lg border border-primary/20 bg-primary/10 p-1.5 text-primary",
+   "role": null,
+   "aria": "Open price and volume chart",
+   "text": "",
+   "disabled": false
+  },
+  {
+   "tag": "button",
+   "id": null,
+   "cls": "inline-flex items-center gap-1.5 rounded-xl border border-primary/20 bg-primary/",
+   "role": null,
+   "aria": "Open market watch details for Golden Textiles & Clothes Wool",
+   "text": "View Details",
+   "disabled": false
+  },
+  {
+   "tag": "button",
+   "id": null,
+   "cls": "inline-flex rounded-lg border border-primary/20 bg-primary/10 p-1.5 text-primary",
+   "role": null,
+   "aria": "Open price and volume chart",
+   "text": "",
+   "disabled": false
+  },
+  {
+   "tag": "button",
+   "id": null,
+   "cls": "inline-flex items-center gap-1.5 rounded-xl border border-primary/20 bg-primary/",
+   "role": null,
+   "aria": "Open market watch details for Creast Mark For Contracting And Real Estate Development",
+   "text": "View Details",
+   "disabled": false
+  },
+  {
+   "tag": "button",
+   "id": null,
+   "cls": "inline-flex rounded-lg border border-primary/20 bg-primary/10 p-1.5 text-primary",
+   "role": null,
+   "aria": "Open price and volume chart",
+   "text": "",
+   "disabled": false
+  },
+  {
+   "tag": "button",
+   "id": null,
+   "cls": "inline-flex items-center gap-1.5 rounded-xl border border-primary/20 bg-primary/",
+   "role": null,
+   "aria": "Open market watch details for QALAA For Financial Investments",
+   "text": "View Details",
+   "disabled": false
+  },
+  {
+   "tag": "button",
+   "id": null,
+   "cls": "inline-flex rounded-lg border border-primary/20 bg-primary/10 p-1.5 text-primary",
+   "role": null,
+   "aria": "Open price and volume chart",
+   "text": "",
+   "disabled": false
+  },
+  {
+   "tag": "button",
+   "id": null,
+   "cls": "inline-flex items-center gap-1.5 rounded-xl border border-primary/20 bg-primary/",
+   "role": null,
+   "aria": "Open market watch details for Cleopatra Hospital Company",
+   "text": "View Details",
+   "disabled": false
+  },
+  {
+   "tag": "button",
+   "id": null,
+   "cls": "inline-flex rounded-lg border border-primary/20 bg-primary/10 p-1.5 text-primary",
+   "role": null,
+   "aria": "Open price and volume chart",
+   "text": "",
+   "disabled": false
+  },
+  {
+   "tag": "button",
+   "id": null,
+   "cls": "inline-flex items-center gap-1.5 rounded-xl border border-primary/20 bg-primary/",
+   "role": null,
+   "aria": "Open market watch details for El-Nile Co. For Pharmaceuticals And Chemical Industries",
+   "text": "View Details",
+   "disabled": false
+  },
+  {
+   "tag": "button",
+   "id": null,
+   "cls": "inline-flex rounded-lg border border-primary/20 bg-primary/10 p-1.5 text-primary",
+   "role": null,
+   "aria": "Open price and volume chart",
+   "text": "",
+   "disabled": false
+  },
+  {
+   "tag": "button",
+   "id": null,
+   "cls": "inline-flex items-center gap-1.5 rounded-xl border border-primary/20 bg-primary/",
+   "role": null,
+   "aria": "Open market watch details for Egyptian International Pharmaceuticals (EIPICO)",
+   "text": "View Details",
+   "disabled": false
+  },
+  {
+   "tag": "button",
+   "id": null,
+   "cls": "inline-flex rounded-lg border border-primary/20 bg-primary/10 p-1.5 text-primary",
+   "role": null,
+   "aria": "Open price and volume chart",
+   "text": "",
+   "disabled": false
+  },
+  {
+   "tag": "button",
+   "id": null,
+   "cls": "inline-flex items-center gap-1.5 rounded-xl border border-primary/20 bg-primary/",
+   "role": null,
+   "aria": "Open market watch details for Abou Kir Fertilizers",
+   "text": "View Details",
+   "disabled": false
+  },
+  {
+   "tag": "button",
+   "id": null,
+   "cls": "inline-flex rounded-lg border border-primary/20 bg-primary/10 p-1.5 text-primary",
+   "role": null,
+   "aria": "Open price and volume chart",
+   "text": "",
+   "disabled": false
+  },
+  {
+   "tag": "button",
+   "id": null,
+   "cls": "inline-flex items-center gap-1.5 rounded-xl border border-primary/20 bg-primary/",
+   "role": null,
+   "aria": "Open market watch details for South Valley Cement",
+   "text": "View Details",
+   "disabled": false
+  },
+  {
+   "tag": "button",
+   "id": null,
+   "cls": "inline-flex rounded-lg border border-primary/20 bg-primary/10 p-1.5 text-primary",
+   "role": null,
+   "aria": "Open price and volume chart",
+   "text": "",
+   "disabled": false
+  },
+  {
+   "tag": "button",
+   "id": null,
+   "cls": "inline-flex items-center gap-1.5 rounded-xl border border-primary/20 bg-primary/",
+   "role": null,
+   "aria": "Open market watch details for Memphis Pharmaceuticals",
+   "text": "View Details",
+   "disabled": false
+  },
+  {
+   "tag": "button",
+   "id": null,
+   "cls": "inline-flex rounded-lg border border-primary/20 bg-primary/10 p-1.5 text-primary",
+   "role": null,
+   "aria": "Open price and volume chart",
+   "text": "",
+   "disabled": false
+  },
+  {
+   "tag": "button",
+   "id": null,
+   "cls": "inline-flex items-center gap-1.5 rounded-xl border border-primary/20 bg-primary/",
+   "role": null,
+   "aria": "Open market watch details for Misr Beni Suef Cement",
+   "text": "View Details",
+   "disabled": false
+  },
+  {
+   "tag": "button",
+   "id": null,
+   "cls": "inline-flex rounded-lg border border-primary/20 bg-primary/10 p-1.5 text-primary",
+   "role": null,
+   "aria": "Open price and volume chart",
+   "text": "",
+   "disabled": false
+  },
+  {
+   "tag": "button",
+   "id": null,
+   "cls": "inline-flex items-center gap-1.5 rounded-xl border border-primary/20 bg-primary/",
+   "role": null,
+   "aria": "Open market watch details for Misr Fertilizers Production Company - Mopco",
+   "text": "View Details",
+   "disabled": false
+  },
+  {
+   "tag": "button",
+   "id": null,
+   "cls": "inline-flex rounded-lg border border-primary/20 bg-primary/10 p-1.5 text-primary",
+   "role": null,
+   "aria": "Open price and volume chart",
+   "text": "",
+   "disabled": false
+  },
+  {
+   "tag": "button",
+   "id": null,
+   "cls": "inline-flex items-center gap-1.5 rounded-xl border border-primary/20 bg-primary/",
+   "role": null,
+   "aria": "Open market watch details for ELSWEDY ELECTRIC",
+   "text": "View Details",
+   "disabled": false
+  },
+  {
+   "tag": "button",
+   "id": null,
+   "cls": "inline-flex rounded-lg border border-primary/20 bg-primary/10 p-1.5 text-primary",
+   "role": null,
+   "aria": "Open price and volume chart",
+   "text": "",
+   "disabled": false
+  },
+  {
+   "tag": "button",
+   "id": null,
+   "cls": "inline-flex items-center gap-1.5 rounded-xl border border-primary/20 bg-primary/",
+   "role": null,
+   "aria": "Open market watch details for Misr Cement (Qena)",
+   "text": "View Details",
+   "disabled": false
+  },
+  {
+   "tag": "button",
+   "id": null,
+   "cls": "inline-flex rounded-lg border border-primary/20 bg-primary/10 p-1.5 text-primary",
+   "role": null,
+   "aria": "Open price and volume chart",
+   "text": "",
+   "disabled": false
+  },
+  {
+   "tag": "button",
+   "id": null,
+   "cls": "inline-flex items-center gap-1.5 rounded-xl border border-primary/20 bg-primary/",
+   "role": null,
+   "aria": "Open market watch details for GB Corp",
+   "text": "View Details",
+   "disabled": false
+  },
+  {
+   "tag": "button",
+   "id": null,
+   "cls": "inline-flex rounded-lg border border-primary/20 bg-primary/10 p-1.5 text-primary",
+   "role": null,
+   "aria": "Open price and volume chart",
+   "text": "",
+   "disabled": false
+  },
+  {
+   "tag": "button",
+   "id": null,
+   "cls": "inline-flex items-center gap-1.5 rounded-xl border border-primary/20 bg-primary/",
+   "role": null,
+   "aria": "Open market watch details for KORRA",
+   "text": "View Details",
+   "disabled": false
+  },
+  {
+   "tag": "button",
+   "id": null,
+   "cls": "inline-flex rounded-lg border border-primary/20 bg-primary/10 p-1.5 text-primary",
+   "role": null,
+   "aria": "Open price and volume chart",
+   "text": "",
+   "disabled": false
+  },
+  {
+   "tag": "button",
+   "id": null,
+   "cls": "inline-flex items-center gap-1.5 rounded-xl border border-primary/20 bg-primary/",
+   "role": null,
+   "aria": "Open market watch details for GPI For Urban Growth",
+   "text": "View Details",
+   "disabled": false
+  },
+  {
+   "tag": "button",
+   "id": null,
+   "cls": "inline-flex rounded-lg border border-primary/20 bg-primary/10 p-1.5 text-primary",
+   "role": null,
+   "aria": "Open price and volume chart",
+   "text": "",
+   "disabled": false
+  },
+  {
+   "tag": "button",
+   "id": null,
+   "cls": "inline-flex items-center gap-1.5 rounded-xl border border-primary/20 bg-primary/",
+   "role": null,
+   "aria": "Open market watch details for Commercial International Bank-Egypt (CIB)",
+   "text": "View Details",
+   "disabled": false
+  },
+  {
+   "tag": "button",
+   "id": null,
+   "cls": "inline-flex rounded-lg border border-primary/20 bg-primary/10 p-1.5 text-primary",
+   "role": null,
+   "aria": "Open price and volume chart",
+   "text": "",
+   "disabled": false
+  },
+  {
+   "tag": "button",
+   "id": null,
+   "cls": "inline-flex items-center gap-1.5 rounded-xl border border-primary/20 bg-primary/",
+   "role": null,
+   "aria": "Open market watch details for Amer Group Holding",
+   "text": "View Details",
+   "disabled": false
+  },
+  {
+   "tag": "button",
+   "id": null,
+   "cls": "inline-flex rounded-lg border border-primary/20 bg-primary/10 p-1.5 text-primary",
+   "role": null,
+   "aria": "Open price and volume chart",
+   "text": "",
+   "disabled": false
+  },
+  {
+   "tag": "button",
+   "id": null,
+   "cls": "inline-flex items-center gap-1.5 rounded-xl border border-primary/20 bg-primary/",
+   "role": null,
+   "aria": "Open market watch details for Telecom Egypt",
+   "text": "View Details",
+   "disabled": false
+  },
+  {
+   "tag": "button",
+   "id": null,
+   "cls": "inline-flex rounded-lg border border-primary/20 bg-primary/10 p-1.5 text-primary",
+   "role": null,
+   "aria": "Open price and volume chart",
+   "text": "",
+   "disabled": false
+  },
+  {
+   "tag": "button",
+   "id": null,
+   "cls": "inline-flex items-center gap-1.5 rounded-xl border border-primary/20 bg-primary/",
+   "role": null,
+   "aria": "Open market watch details for Development & Engineering Consultants",
+   "text": "View Details",
+   "disabled": false
+  },
+  {
+   "tag": "button",
+   "id": null,
+   "cls": "inline-flex rounded-lg border border-primary/20 bg-primary/10 p-1.5 text-primary",
+   "role": null,
+   "aria": "Open price and volume chart",
+   "text": "",
+   "disabled": false
+  },
+  {
+   "tag": "button",
+   "id": null,
+   "cls": "inline-flex items-center gap-1.5 rounded-xl border border-primary/20 bg-primary/",
+   "role": null,
+   "aria": "Open market watch details for Cairo Poultry",
+   "text": "View Details",
+   "disabled": false
+  },
+  {
+   "tag": "button",
+   "id": null,
+   "cls": "inline-flex rounded-lg border border-primary/20 bg-primary/10 p-1.5 text-primary",
+   "role": null,
+   "aria": "Open price and volume chart",
+   "text": "",
+   "disabled": false
+  },
+  {
+   "tag": "button",
+   "id": null,
+   "cls": "inline-flex items-center gap-1.5 rounded-xl border border-primary/20 bg-primary/",
+   "role": null,
+   "aria": "Open market watch details for Nozha International Hospital",
+   "text": "View Details",
+   "disabled": false
+  },
+  {
+   "tag": "button",
+   "id": null,
+   "cls": "inline-flex rounded-lg border border-primary/20 bg-primary/10 p-1.5 text-primary",
+   "role": null,
+   "aria": "Open price and volume chart",
+   "text": "",
+   "disabled": false
+  },
+  {
+   "tag": "button",
+   "id": null,
+   "cls": "inline-flex items-center gap-1.5 rounded-xl border border-primary/20 bg-primary/",
+   "role": null,
+   "aria": "Open market watch details for Macro Group Pharmaceuticals -Macro Capital",
+   "text": "View Details",
+   "disabled": false
+  },
+  {
+   "tag": "button",
+   "id": null,
+   "cls": "inline-flex rounded-lg border border-primary/20 bg-primary/10 p-1.5 text-primary",
+   "role": null,
+   "aria": "Open price and volume chart",
+   "text": "",
+   "disabled": false
+  },
+  {
+   "tag": "button",
+   "id": null,
+   "cls": "mt-3 inline-flex w-full items-center justify-center gap-2 rounded-xl border bord",
+   "role": null,
+   "aria": "Open market watch details for Alexandria New Medical Center",
+   "text": "View Details",
+   "disabled": false
+  },
+  {
+   "tag": "button",
+   "id": null,
+   "cls": "inline-flex rounded-lg border border-primary/20 bg-primary/10 p-1.5 text-primary",
+   "role": null,
+   "aria": "Open price and volume chart",
+   "text": "",
+   "disabled": false
+  },
+  {
+   "tag": "button",
+   "id": null,
+   "cls": "mt-3 inline-flex w-full items-center justify-center gap-2 rounded-xl border bord",
+   "role": null,
+   "aria": "Open market watch details for Glaxo Smith Kline",
+   "text": "View Details",
+   "disabled": false
+  },
+  {
+   "tag": "button",
+   "id": null,
+   "cls": "inline-flex rounded-lg border border-primary/20 bg-primary/10 p-1.5 text-primary",
+   "role": null,
+   "aria": "Open price and volume chart",
+   "text": "",
+   "disabled": false
+  },
+  {
+   "tag": "button",
+   "id": null,
+   "cls": "mt-3 inline-flex w-full items-center justify-center gap-2 rounded-xl border bord",
+   "role": null,
+   "aria": "Open market watch details for Golden Textiles & Clothes Wool",
+   "text": "View Details",
+   "disabled": false
+  },
+  {
+   "tag": "button",
+   "id": null,
+   "cls": "inline-flex rounded-lg border border-primary/20 bg-primary/10 p-1.5 text-primary",
+   "role": null,
+   "aria": "Open price and volume chart",
+   "text": "",
+   "disabled": false
+  },
+  {
+   "tag": "button",
+   "id": null,
+   "cls": "mt-3 inline-flex w-full items-center justify-center gap-2 rounded-xl border bord",
+   "role": null,
+   "aria": "Open market watch details for Creast Mark For Contracting And Real Estate Development",
+   "text": "View Details",
+   "disabled": false
+  },
+  {
+   "tag": "button",
+   "id": null,
+   "cls": "inline-flex rounded-lg border border-primary/20 bg-primary/10 p-1.5 text-primary",
+   "role": null,
+   "aria": "Open price and volume chart",
+   "text": "",
+   "disabled": false
+  },
+  {
+   "tag": "button",
+   "id": null,
+   "cls": "mt-3 inline-flex w-full items-center justify-center gap-2 rounded-xl border bord",
+   "role": null,
+   "aria": "Open market watch details for QALAA For Financial Investments",
+   "text": "View Details",
+   "disabled": false
+  },
+  {
+   "tag": "button",
+   "id": null,
+   "cls": "inline-flex rounded-lg border border-primary/20 bg-primary/10 p-1.5 text-primary",
+   "role": null,
+   "aria": "Open price and volume chart",
+   "text": "",
+   "disabled": false
+  },
+  {
+   "tag": "button",
+   "id": null,
+   "cls": "mt-3 inline-flex w-full items-center justify-center gap-2 rounded-xl border bord",
+   "role": null,
+   "aria": "Open market watch details for Cleopatra Hospital Company",
+   "text": "View Details",
+   "disabled": false
+  },
+  {
+   "tag": "button",
+   "id": null,
+   "cls": "inline-flex rounded-lg border border-primary/20 bg-primary/10 p-1.5 text-primary",
+   "role": null,
+   "aria": "Open price and volume chart",
+   "text": "",
+   "disabled": false
+  },
+  {
+   "tag": "button",
+   "id": null,
+   "cls": "mt-3 inline-flex w-full items-center justify-center gap-2 rounded-xl border bord",
+   "role": null,
+   "aria": "Open market watch details for El-Nile Co. For Pharmaceuticals And Chemical Industries",
+   "text": "View Details",
+   "disabled": false
+  },
+  {
+   "tag": "button",
+   "id": null,
+   "cls": "inline-flex rounded-lg border border-primary/20 bg-primary/10 p-1.5 text-primary",
+   "role": null,
+   "aria": "Open price and volume chart",
+   "text": "",
+   "disabled": false
+  },
+  {
+   "tag": "button",
+   "id": null,
+   "cls": "mt-3 inline-flex w-full items-center justify-center gap-2 rounded-xl border bord",
+   "role": null,
+   "aria": "Open market watch details for Egyptian International Pharmaceuticals (EIPICO)",
+   "text": "View Details",
+   "disabled": false
+  },
+  {
+   "tag": "button",
+   "id": null,
+   "cls": "inline-flex rounded-lg border border-primary/20 bg-primary/10 p-1.5 text-primary",
+   "role": null,
+   "aria": "Open price and volume chart",
+   "text": "",
+   "disabled": false
+  },
+  {
+   "tag": "button",
+   "id": null,
+   "cls": "mt-3 inline-flex w-full items-center justify-center gap-2 rounded-xl border bord",
+   "role": null,
+   "aria": "Open market watch details for Abou Kir Fertilizers",
+   "text": "View Details",
+   "disabled": false
+  },
+  {
+   "tag": "button",
+   "id": null,
+   "cls": "inline-flex rounded-lg border border-primary/20 bg-primary/10 p-1.5 text-primary",
+   "role": null,
+   "aria": "Open price and volume chart",
+   "text": "",
+   "disabled": false
+  },
+  {
+   "tag": "button",
+   "id": null,
+   "cls": "mt-3 inline-flex w-full items-center justify-center gap-2 rounded-xl border bord",
+   "role": null,
+   "aria": "Open market watch details for South Valley Cement",
+   "text": "View Details",
+   "disabled": false
+  },
+  {
+   "tag": "button",
+   "id": null,
+   "cls": "inline-flex rounded-lg border border-primary/20 bg-primary/10 p-1.5 text-primary",
+   "role": null,
+   "aria": "Open price and volume chart",
+   "text": "",
+   "disabled": false
+  },
+  {
+   "tag": "button",
+   "id": null,
+   "cls": "mt-3 inline-flex w-full items-center justify-center gap-2 rounded-xl border bord",
+   "role": null,
+   "aria": "Open market watch details for Memphis Pharmaceuticals",
+   "text": "View Details",
+   "disabled": false
+  },
+  {
+   "tag": "button",
+   "id": null,
+   "cls": "inline-flex rounded-lg border border-primary/20 bg-primary/10 p-1.5 text-primary",
+   "role": null,
+   "aria": "Open price and volume chart",
+   "text": "",
+   "disabled": false
+  },
+  {
+   "tag": "button",
+   "id": null,
+   "cls": "mt-3 inline-flex w-full items-center justify-center gap-2 rounded-xl border bord",
+   "role": null,
+   "aria": "Open market watch details for Misr Beni Suef Cement",
+   "text": "View Details",
+   "disabled": false
+  },
+  {
+   "tag": "button",
+   "id": null,
+   "cls": "inline-flex rounded-lg border border-primary/20 bg-primary/10 p-1.5 text-primary",
+   "role": null,
+   "aria": "Open price and volume chart",
+   "text": "",
+   "disabled": false
+  },
+  {
+   "tag": "button",
+   "id": null,
+   "cls": "mt-3 inline-flex w-full items-center justify-center gap-2 rounded-xl border bord",
+   "role": null,
+   "aria": "Open market watch details for Misr Fertilizers Production Company - Mopco",
+   "text": "View Details",
+   "disabled": false
+  },
+  {
+   "tag": "button",
+   "id": null,
+   "cls": "inline-flex rounded-lg border border-primary/20 bg-primary/10 p-1.5 text-primary",
+   "role": null,
+   "aria": "Open price and volume chart",
+   "text": "",
+   "disabled": false
+  },
+  {
+   "tag": "button",
+   "id": null,
+   "cls": "mt-3 inline-flex w-full items-center justify-center gap-2 rounded-xl border bord",
+   "role": null,
+   "aria": "Open market watch details for ELSWEDY ELECTRIC",
+   "text": "View Details",
+   "disabled": false
+  },
+  {
+   "tag": "button",
+   "id": null,
+   "cls": "inline-flex rounded-lg border border-primary/20 bg-primary/10 p-1.5 text-primary",
+   "role": null,
+   "aria": "Open price and volume chart",
+   "text": "",
+   "disabled": false
+  },
+  {
+   "tag": "button",
+   "id": null,
+   "cls": "mt-3 inline-flex w-full items-center justify-center gap-2 rounded-xl border bord",
+   "role": null,
+   "aria": "Open market watch details for Misr Cement (Qena)",
+   "text": "View Details",
+   "disabled": false
+  },
+  {
+   "tag": "button",
+   "id": null,
+   "cls": "inline-flex rounded-lg border border-primary/20 bg-primary/10 p-1.5 text-primary",
+   "role": null,
+   "aria": "Open price and volume chart",
+   "text": "",
+   "disabled": false
+  },
+  {
+   "tag": "button",
+   "id": null,
+   "cls": "mt-3 inline-flex w-full items-center justify-center gap-2 rounded-xl border bord",
+   "role": null,
+   "aria": "Open market watch details for GB Corp",
+   "text": "View Details",
+   "disabled": false
+  },
+  {
+   "tag": "button",
+   "id": null,
+   "cls": "inline-flex rounded-lg border border-primary/20 bg-primary/10 p-1.5 text-primary",
+   "role": null,
+   "aria": "Open price and volume chart",
+   "text": "",
+   "disabled": false
+  },
+  {
+   "tag": "button",
+   "id": null,
+   "cls": "mt-3 inline-flex w-full items-center justify-center gap-2 rounded-xl border bord",
+   "role": null,
+   "aria": "Open market watch details for KORRA",
+   "text": "View Details",
+   "disabled": false
+  },
+  {
+   "tag": "button",
+   "id": null,
+   "cls": "inline-flex rounded-lg border border-primary/20 bg-primary/10 p-1.5 text-primary",
+   "role": null,
+   "aria": "Open price and volume chart",
+   "text": "",
+   "disabled": false
+  },
+  {
+   "tag": "button",
+   "id": null,
+   "cls": "mt-3 inline-flex w-full items-center justify-center gap-2 rounded-xl border bord",
+   "role": null,
+   "aria": "Open market watch details for GPI For Urban Growth",
+   "text": "View Details",
+   "disabled": false
+  },
+  {
+   "tag": "button",
+   "id": null,
+   "cls": "inline-flex rounded-lg border border-primary/20 bg-primary/10 p-1.5 text-primary",
+   "role": null,
+   "aria": "Open price and volume chart",
+   "text": "",
+   "disabled": false
+  },
+  {
+   "tag": "button",
+   "id": null,
+   "cls": "mt-3 inline-flex w-full items-center justify-center gap-2 rounded-xl border bord",
+   "role": null,
+   "aria": "Open market watch details for Commercial International Bank-Egypt (CIB)",
+   "text": "View Details",
+   "disabled": false
+  },
+  {
+   "tag": "button",
+   "id": null,
+   "cls": "inline-flex rounded-lg border border-primary/20 bg-primary/10 p-1.5 text-primary",
+   "role": null,
+   "aria": "Open price and volume chart",
+   "text": "",
+   "disabled": false
+  },
+  {
+   "tag": "button",
+   "id": null,
+   "cls": "mt-3 inline-flex w-full items-center justify-center gap-2 rounded-xl border bord",
+   "role": null,
+   "aria": "Open market watch details for Amer Group Holding",
+   "text": "View Details",
+   "disabled": false
+  },
+  {
+   "tag": "button",
+   "id": null,
+   "cls": "inline-flex rounded-lg border border-primary/20 bg-primary/10 p-1.5 text-primary",
+   "role": null,
+   "aria": "Open price and volume chart",
+   "text": "",
+   "disabled": false
+  },
+  {
+   "tag": "button",
+   "id": null,
+   "cls": "mt-3 inline-flex w-full items-center justify-center gap-2 rounded-xl border bord",
+   "role": null,
+   "aria": "Open market watch details for Telecom Egypt",
+   "text": "View Details",
+   "disabled": false
+  },
+  {
+   "tag": "button",
+   "id": null,
+   "cls": "inline-flex rounded-lg border border-primary/20 bg-primary/10 p-1.5 text-primary",
+   "role": null,
+   "aria": "Open price and volume chart",
+   "text": "",
+   "disabled": false
+  },
+  {
+   "tag": "button",
+   "id": null,
+   "cls": "mt-3 inline-flex w-full items-center justify-center gap-2 rounded-xl border bord",
+   "role": null,
+   "aria": "Open market watch details for Development & Engineering Consultants",
+   "text": "View Details",
+   "disabled": false
+  },
+  {
+   "tag": "button",
+   "id": null,
+   "cls": "inline-flex rounded-lg border border-primary/20 bg-primary/10 p-1.5 text-primary",
+   "role": null,
+   "aria": "Open price and volume chart",
+   "text": "",
+   "disabled": false
+  },
+  {
+   "tag": "button",
+   "id": null,
+   "cls": "mt-3 inline-flex w-full items-center justify-center gap-2 rounded-xl border bord",
+   "role": null,
+   "aria": "Open market watch details for Cairo Poultry",
+   "text": "View Details",
+   "disabled": false
+  },
+  {
+   "tag": "button",
+   "id": null,
+   "cls": "inline-flex rounded-lg border border-primary/20 bg-primary/10 p-1.5 text-primary",
+   "role": null,
+   "aria": "Open price and volume chart",
+   "text": "",
+   "disabled": false
+  },
+  {
+   "tag": "button",
+   "id": null,
+   "cls": "mt-3 inline-flex w-full items-center justify-center gap-2 rounded-xl border bord",
+   "role": null,
+   "aria": "Open market watch details for Nozha International Hospital",
+   "text": "View Details",
+   "disabled": false
+  },
+  {
+   "tag": "button",
+   "id": null,
+   "cls": "inline-flex rounded-lg border border-primary/20 bg-primary/10 p-1.5 text-primary",
+   "role": null,
+   "aria": "Open price and volume chart",
+   "text": "",
+   "disabled": false
+  },
+  {
+   "tag": "button",
+   "id": null,
+   "cls": "mt-3 inline-flex w-full items-center justify-center gap-2 rounded-xl border bord",
+   "role": null,
+   "aria": "Open market watch details for Macro Group Pharmaceuticals -Macro Capital",
+   "text": "View Details",
+   "disabled": false
+  },
+  {
+   "tag": "button",
+   "id": null,
+   "cls": "rounded-lg border border-[var(--egx-listing-soft-border)] bg-[var(--egx-listing-",
+   "role": null,
+   "aria": null,
+   "text": "Previous",
+   "disabled": true
+  },
+  {
+   "tag": "button",
+   "id": null,
+   "cls": "rounded-lg border border-[var(--egx-listing-soft-border)] bg-[var(--egx-listing-",
+   "role": null,
+   "aria": null,
+   "text": "Next",
+   "disabled": false
+  },
+  {
+   "tag": "button",
+   "id": null,
+   "cls": "relative z-[11220] flex h-[62px] items-center overflow-hidden rounded-full borde",
+   "role": null,
+   "aria": "Open feedback form",
+   "text": "",
+   "disabled": false
+  }
+ ],
+ "labels": [
+  {
+   "tag": "span",
+   "id": null,
+   "cls": "block text-[10px] font-bold uppercase tracking-[0.18em] text-gray-400",
+   "role": null,
+   "aria": null,
+   "text": "ROWS PER PAGE",
+   "disabled": false
+  },
+  {
+   "tag": "button",
+   "id": null,
+   "cls": "rounded-lg border border-[var(--egx-listing-soft-border)] bg-[var(--egx-listing-",
+   "role": null,
+   "aria": null,
+   "text": "Previous",
+   "disabled": true
+  },
+  {
+   "tag": "button",
+   "id": null,
+   "cls": "rounded-lg border border-[var(--egx-listing-soft-border)] bg-[var(--egx-listing-",
+   "role": null,
+   "aria": null,
+   "text": "Next",
+   "disabled": false
+  }
+ ],
+ "navs": [
+  {
+   "tag": "nav",
+   "id": null,
+   "cls": "hidden xl:flex flex-1 justify-center items-center h-full px-2 transition-opacity",
+   "role": null,
+   "aria": null,
+   "text": "domain About EGX keyboard_arrow_down candlestick_chart Finan",
+   "disabled": false
+  }
+ ],
+ "table_rows": 25,
+ "title": "",
+ "strategy_check": {
+  "next_by_selector": 1,
+  "next_by_role": 1,
+  "rows_per_page_label_matches": 1,
+  "native_selects_offering_page_size": 0,
+  "wanted_page_size": 50
+ }
+}
