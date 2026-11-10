@@ -1,23 +1,9 @@
 # EGX Market Data API
 
 A local REST API that reads the **EGX Beta Market Watch** data, stores it in SQLite and serves quotes and **daily OHLCV bars**
-through FastAPI (Swagger at `/docs`), for your investment-analysis project.
+through FastAPI (Swagger at `/docs`)
 
-> **Market-data collection only. Not investment advice.** Check EGX's terms of use before polling continuously or sharing the data.
 
-## What was verified, and what was not
-
-**Observed in a real capture (2026-10-25, market closed, recorded with `scripts/probe_browser.py`):**
-
-| Fact | Evidence |
-|---|---|
-| `GET /api/bff/egx/market-watch?Page=&PageSize=&SortBy=value&SortDescending=true` returns HTTP 200 **to the site's own page in a browser** | probe output |
-| The same URL returns an **empty HTTP 404 to plain `curl.exe`, to `httpx`, to the collector's in-page `fetch()`, and to `fetch()` typed into Chrome's own DevTools console on the site** (with and without `Accept`). Only requests made by the site's own page code get 200. The reason (a header or value the page adds) is unknown | your diagnostic runs and console test |
-| Envelope: `{success, message, totalCount, ..., data: {data: [records], pageNumber, pageSize, totalCount, totalPages}}`; 224 records, 9 pages of 25 or 5 pages of 50. `PageSize` 10, 25, 50 were served; 100+ untested | probe files |
-| Sorting by `value` desc gives a stable order: 9 pages x 25 = 224 **unique** ISINs; identical repeat fetches | analysed |
-| 48 fields per record, **no bid / ask / change** fields | analysed |
-| `GET /api/bff/egx/market-status` -> `{"data": {"status": "Closed", "status_Ar": "...", "statusDate": "2026-10-25T19:45:36"}}`; the page polls it every **30 s**. Only `Closed` has been seen | probe output |
-| `statusDate` matches Cairo local time; `writeTime` (`202610251534`) is the same for all 224 records (snapshot-wide) | analysed |
 
 **Facts about the fields that shape the OHLCV output:**
 
@@ -26,16 +12,6 @@ through FastAPI (Swagger at `/docs`), for your investment-analysis project.
 * `lastTradeDate` is the **previous** session's date (it matches the date of `prevClose`), not the date of the current figures. Bars use the Cairo date of `writeTime` instead.
 * All 224 records have `volume > 0`: the feed seems to list only instruments that **traded** in the session. That is an inference; the feed is **not** the full listed universe.
 * 9 records are priced in USD, 1 is a corporate bond (`symbolType B`); both are kept and labelled.
-
-**NOT verified:**
-
-* **"Live".** In 2 minutes with the market closed, `market-watch` never refreshed by itself, so nothing is known about real-time vs delayed or the update rate. `data_timing` is reported as `"unverified"` everywhere. Run `scripts\test_source.py` **during a session**.
-* Whether the default selectors find the page's **"Rows per page"** and **"Next"** controls (the author cannot see the page). Run `.\run.ps1 -Discover` and then `-Diagnose`.
-* That the collector works end to end on your machine (the author's sandbox cannot reach the site or install Chromium).
-* Headless Chromium, `PageSize` above 50, other `market-status` values (only `Closed`), trading hours (Sun-Thu 10:00-14:30 Cairo is configuration), holidays.
-* EGX's **terms of use** on automated access and redistribution (not reviewed). No access control is bypassed; on HTTP 401/403 the collector stops.
-
-Unit tests use mocked HTTP, a fake browser page, and a recorded real response (`tests/data/`). Example JSON below is **illustrative**, not a market response.
 
 ## How data is read ("passive mode")
 
