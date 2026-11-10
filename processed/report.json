@@ -1,0 +1,61 @@
+{
+  "cleaning": {
+    "rows_in": 402470,
+    "dropped_invalid": 232,
+    "dropped_zero_volume": 2429,
+    "repaired_envelope": 15820,
+    "breaks": 295,
+    "rows_out": 399809
+  },
+  "symbols_used": 97,
+  "symbols_excluded": [
+    "FERC",
+    "NAPR",
+    "SAIB"
+  ],
+  "rows": {
+    "train": 261546,
+    "val": 29751,
+    "test": 26508
+  },
+  "up_rate": {
+    "train": 0.4864,
+    "val": 0.4792,
+    "test": 0.4776
+  },
+  "date_range": [
+    "2005-01-02",
+    "2026-10-12"
+  ],
+  "n_features": 28,
+  "features": [
+    "ret_1",
+    "ret_2",
+    "ret_3",
+    "ret_5",
+    "ret_10",
+    "ret_20",
+    "range_pct",
+    "close_pos",
+    "sma_ratio_5",
+    "sma_ratio_10",
+    "sma_ratio_20",
+    "sma_ratio_50",
+    "sma_ratio_100",
+    "macd",
+    "macd_signal",
+    "macd_hist",
+    "rsi_14",
+    "stoch_k",
+    "stoch_d",
+    "bb_pctb",
+    "bb_width",
+    "atr_pct",
+    "vol_10",
+    "vol_20",
+    "dow_sin",
+    "dow_cos",
+    "vol_ratio_20",
+    "dlog_vol"
+  ]
+}
